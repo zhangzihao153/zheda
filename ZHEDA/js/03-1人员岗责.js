@@ -1,0 +1,21 @@
+$(function(){
+    $("#s3").click(function(){
+        $(".special").toggleClass("hide");
+        if($(".special").hasClass("hide")){   
+            if($("#add").is(":visible")){   /*判断元素是否隐藏*/
+                $("#add").toggle("600");
+            } 
+        }
+    });
+    $(".add").click(function(){
+        $("#add").toggle("600");
+    });
+    $("#city").children("li").hover(
+        function(){
+            $(this).children("ul").css("display","block");
+        },
+        function(){
+            $(this).children("ul").css("display","none");
+        }
+    );
+});

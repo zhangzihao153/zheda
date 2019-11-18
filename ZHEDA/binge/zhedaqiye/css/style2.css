@@ -1,0 +1,79 @@
+body{
+           margin: 0px;
+           padding: 0px;
+           font: 14px/1.5em 微软雅黑;
+           background: #2566C2;
+       }
+       #div2{
+           width: 422px;
+           height: 308px;
+           border-radius: 6px;
+           background: #fff;
+           margin: 100px auto ;
+       }
+       #img1{
+           margin-top: 26px;
+           margin-left: 85px;
+       }
+       .tittle1{
+           font: 38px/1.5em 微软雅黑;
+           font-weight: bold;
+           color: #fff;
+           position: absolute;
+           top:40px;
+           left: 159px;
+       }
+       #div2 .tittle2{
+           font-size: 32px;
+           color: #333333;
+           position: relative;
+           top:26px;
+           left: 147px;
+       }
+	   #div3 input,#div4 input{
+           border-radius: 3px;
+           background: #ffffff;
+           width: 330px;
+           height: 40px;
+       }
+       #div3{
+           position: relative;
+           top: 60px;
+           left:46px;
+       }
+       #div4{
+           position: relative;
+           top: 90px;
+           left:46px;
+       }
+       .tittle3{
+           position: relative;
+           top: 10px;
+           left: 16px;
+       }
+       .tittle4{
+           position: relative;
+           top: 10px;
+           left: 28px;
+       }
+       .username{
+           border: none;
+           border:1px solid #fff;
+       }
+       .pwd{
+           border: none;
+           border:1px solid #fff;
+       }
+       .sub{
+           display: block;
+           background: #4B8DE3;
+           border: 1px solid #cccccc;
+           border: none;
+           border-radius: 3px;
+           color: #ffffff;
+           width: 330px;
+           height: 40px;
+           position: relative;
+           top: 120px;
+           left: 46px;
+       }
